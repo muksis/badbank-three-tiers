@@ -4,6 +4,7 @@ function Spa() {
       <NavBar/>
       <UserContext.Provider>
         <div className="container" style={{padding: "20px"}}>
+          
           <Route path="/" exact component={Home} />
           <Route path="/create-account" component={CreateAccount} />
           <Route path="/deposit" component={Deposit} />
